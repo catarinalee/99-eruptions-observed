@@ -1,0 +1,166 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-size: 3vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: 'Darker Grotesque', sans-serif;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1vw;
+  margin-bottom: -0.2vw;
+}
+
+#image {
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#image img {
+  max-width: 98vh;
+}
+
+#name {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  width: 20%;
+}
+
+#latitude {
+  position: absolute;
+  top: 2%;
+  left: 30%;
+}
+
+#longitude {
+  position: absolute;
+  top: 2%;
+  left: 55%;
+}
+
+#year {
+  position: absolute;
+  top: 2%;
+  left: 83%;
+}
+
+#rock {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+}
+
+#elevation {
+  position: absolute;
+  bottom: 2%;
+  left: 30%;
+}
+
+#population {
+  position: absolute;
+  bottom: 2%;
+  left: 55%;
+}
+
+#vei {
+  position: absolute;
+  bottom: 2%;
+  left: 83%;
+}
+
+.left {
+  position: absolute;
+  top: 48%;
+  left: 2%;
+}
+
+.left img {
+  width: 4vw;
+}
+
+.right {
+  position: absolute;
+  top: 48%;
+  right: 2%;
+}
+
+.right img {
+  width: 4vw;
+}
+
+*:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 6vw;
+  }
+
+  h2 {
+    font-size: 2vw;
+  }
+
+  .left img, .right img {
+    width: 8vw;
+  }
+
+  .left {
+    left: 3%;
+  }
+
+  .right {
+    right: 3%;
+  }
+
+  #name {
+    top: 3%;
+    left: 3%;
+    width: 40%;
+  }
+
+  #latitude {
+    top: 10%;
+    left: 3%;
+  }
+
+  #longitude {
+    top: 10%;
+    left: 55%;
+  }
+
+  #year {
+    top: 3%;
+    left: 55%;
+  }
+
+  #rock {
+    bottom: 3%;
+    left: 3%;
+  }
+
+  #elevation {
+    bottom: 10%;
+    left: 3%;
+  }
+
+  #population {
+    bottom: 10%;
+    left: 55%;
+  }
+
+  #vei {
+    bottom: 3%;
+    left: 55%;
+  }
+}
